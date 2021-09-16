@@ -1,7 +1,7 @@
 {
     "name": "homebridge-plugin-restful-hook",
     "version": "1.0.0",
-    "description": "An example dynamic platform plugin for homebridge written in Typescript",
+    "description": "A dynamic platform plugin configurable by a REST interface",
     "main": "dist/dynamic-platform.js",
     "keywords": [
         "homebridge-plugin"
@@ -13,21 +13,21 @@
         "postpublish": "npm run clean",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "author": "Andreas Bauer <mail@anderl-bauer.de>",
+    "author": "William Dussault <william@dussault.dev>",
     "engines": {
         "homebridge": ">=1.0.0"
     },
-    "license": "ISC",
+    "license": "MIT",
     "files": [
         "LICENSE",
         "dist"
     ],
     "repository": {
         "type": "git",
-        "url": "git://github.com/homebridge/homebridge-examples.git"
+        "url": "git://github.com/dalloriam/homebridge-plugin-restful-hook.git"
     },
     "bugs": {
-        "url": "http://github.com/homebridge/homebridge-examples/issues"
+        "url": "http://github.com/dalloriam/homebridge-plugin-restful-hook/issues"
     },
     "devDependencies": {
         "@types/node": "^14.14.31",
